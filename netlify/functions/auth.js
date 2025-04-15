@@ -5,13 +5,13 @@ import bcrypt from 'bcryptjs';
 const users = [
   {
     username: 'admin',
-    // This is the hashed version of 'admin123'
-    passwordHash: '$2a$10$rBSGqKRKN1Yd1C1Zqh.Uf.d9ZHFg3l3J6Z.rU0iJxlxS7IVpb5Eni'
+    // This is the hashed version of 'Quas@rCyberTech2025'
+    passwordHash: '$2y$10$oMu/HwpfROdsS/wT2LIQ4e4aFhZkL8mDMlAWwIBbTOWaRGo/wz1BO'
   },
   {
     username: 'demo',
     // This is the hashed version of 'demo123'
-    passwordHash: '$2a$10$xLCNGOr5K8oCmVvKUJWMJeYk3RfXlAZQNBWXFEYnzI5dPZ1CvNM5e'
+    passwordHash: '$2y$10$oMu/HwpfROdsS/wT2LIQ4e4aFhZkL8mDMlAWwIBbTOWaRGo/wz1BO'
   }
 ];
 
