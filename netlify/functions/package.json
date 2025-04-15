@@ -1,0 +1,10 @@
+{
+    "name": "quasar-cybertech-functions",
+    "version": "1.0.0",
+    "description": "Serverless functions for Quasar CyberTech Dashboard",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+      "bcryptjs": "^2.4.3"
+    }
+  }

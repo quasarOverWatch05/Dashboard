@@ -1,0 +1,21 @@
+# Netlify configuration file
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+  command = ""  # No build command needed for plain HTML/CSS
+
+# Redirect all routes to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variable settings (for development)
+[dev]
+  framework = "#static"
+  command = "npx serve"
+  port = 8888
+  targetPort = 3000
+  publish = "."
+  autoLaunch = true
